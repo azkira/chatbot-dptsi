@@ -4,30 +4,127 @@ intents:
   - greet
   - goodbye
   - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - offtopic
+  - domhost
+  - lisensi
+  - data_integra
+  - daftar_forlapsivil
+  - sim
+  - o365
+  - myitsintegra
+  - vpn
+  - zoom
+  - azure
+  - teams
+  - panduan
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+  - text: "Selamat datang di chatbot dptsi.\ 
+          \ tulis keperluanmu untuk menyelesaikan\
+          \ kendala yang anda alami."
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Terima kasih telah menggunakan chatbot dptsi."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_vpn:
+  - text: "Jika anda mengalami permasalahan dan ingin mengakses VPN ITS anda dapat\
+          \ membuka integra.its.ac.id/app.php, lalu memilih menu one time password. Setelah\
+          \ itu menu akses VPN akan terbuka, anda dapat menambah akses vpn sesuai yang\
+          \ anda inginkan.\nJika anda masih mengalami permasalahan untuk mengakses VPN\
+          \ ITS, silahkan sampaikan keluhan anda di servicedesk.its.ac.id.\nSelanjutnya\
+          \ mohon ditunggu, akan kami lakukan proses check keluhan yang anda alami terlebih\
+          \ dahulu bersama tim. Terima kasih atas pengertiannya \U0001F604."
+
+  utter_domhost:
+  - text: "Apabila anda mengalami permasalahan mengenai domain, hosting, dan server\
+          \ atau memiliki permintaan tertentu mengenai domain, hosting, dan server. Anda\
+          \ dapat langsung mengisi aplikasi simdom yang dapat diakses di my.its.ac.id.\n\
+          Selanjutnya mohon ditunggu, akan kami lakukan proses check ataupun penyetujuan\
+          \ terlebih dahulu bersama tim. Terima kasih atas pengertiannya \U0001F604."
+
+  utter_lisensi:
+  - text: "Jika terdapat keluhan mengenai cara instalasi, aktifasi, atau akses ke\
+          \ aplikasi yang membutuhkan lisensi mohon dapat menyampaikan via servicedesk.its.ac.id\
+          \ aplikasi yang menjadi kendala atau ingin diakses lisensinya.\nSelanjutnya\
+          \ mohon ditunggu, akan kami lakukan proses check ketersediaaanya terlebih dahulu\
+          \ bersama tim. Terima kasih atas pengertiannya \U0001F604."
+
+  utter_data_integra:
+  - text: "Apabila anda ingin melakukan perubahan pada data Integra anda, tolong lengkapi\
+          \ data-data berikut.\nNama :\nDepartemen:\nNRP/NIP/NPP:\nUsername Integra/MyITS:\n\
+          Email Alternatif :\nNomor Telefon:\nTolong sertakan juga foto KTM/KTP/SIM anda\
+          \ untuk memverifikasi data anda. Selanjutnya tolong diisikan juga form mengenai\
+          \ data yang ingin dirubah.\nData semula :\nDiubah Menjadi:\nSelanjutnya mohon\
+          \ ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terima\
+          \ kasih atas pengertiannya \U0001F604."
+
+  utter_daftar_forlapsivil:
+  - text: "Jika anda ingin melakukan pendaftaran pada Forlap atau Ijazah anda belum\
+          \ terverifikasi di Forlap/SIVIL/PDPT, mohon diinfokan melalui servicedesk.its.ac.id\
+          \ data-data berikut.\nNama :\nDepartemen:\nNRP:\nTahun Lulus:\nTolong sertakan\
+          \ juga scan atau foto ijazah anda. Selanjutnya mohon ditunggu, akan kami lakukan\
+          \ proses check terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
+          \ \U0001F604."
+
+  utter_sim:
+  - text: "Jika anda mengalami permasalahan mengenai SIM anda dapat sampaikan keluhan\
+          \ yang anda alami beserta dengan screenshoot dari SIM yang bermasalah kepada\
+          \ servicedesk.its.ac.id.\nSelanjutnya mohon ditunggu, akan kami lakukan proses\
+          \ check mengenai sistem terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
+          \ \U0001F604."
+
+  utter_o365:
+  - text: "Jika anda mengalami masalah untuk masuk ke email anda atau akun office\
+          \ 365 anda, berikut beberapa cara untuk mengaksesnya. jika anda lupa dengan\
+          \ username dan password email anda, berikut beberapa langkah yang dapat dilakukan:\n\
+          1. Masuk ke integra.its.ac.id/app.php\n2. Pilih Mailbox Mahasiswa / Mailbox\
+          \ Staff.\n3. Masukkan username dan password integra\n\nJika anda mengalami permasalahan\
+          \ sinkronisasi office 365, anda dapat menyampaikan kelengkapan data anda pada\
+          \ servicedesk.its.ac.id dengan list data sebagai berikut :\nNama :\nDepartemen\
+          \ :\nNRP :\nUsername Integra :\nSelanjutnya mohon ditunggu, akan kami lakukan\
+          \ proses check terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
+          \ \U0001F604."
+
+  utter_myitsintegra:
+  - text: "Jika anda tidak bisa masuk kedalam akun MyITS atau akun Integra anda, tolong\
+          \ lengkapi data-data berikut.\nNama :\nDepartemen:\nNRP/NIP/NPP:\nUsername Integra/MyITS:\n\
+          Email Alternatif :\nNomor Telefon:\nTolong sertakan juga foto KTM/KTP/SIM anda\
+          \ untuk memverifikasi data anda. Selanjutnya mohon ditunggu, akan kami lakukan\
+          \ proses check terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
+          \ \U0001F604."
+  
+  utter_zoom:
+  - text: "Untuk mengajukan akun zoom berlisensi ITS, silahkan mengajukan melalui servicedesk.\
+          \ Untuk melakukan request meeting zoom, silahkan membuat surat permohonan yang ditujukan\
+          \ ke DPTSI."
+  
+  utter_did_that_help:
+  - text: "Apakah anda sudah merasa terbantu?"
+
+  utter_offtopic:
+  - text: "Mohon maaf untuk saat ini layanan bot hanya dapat\
+          \ menjawab masalah terkait firut dptsi"
+
+  utter_azure:
+    - text: "Jika anda mengalami permasalahan untuk mengakses Microsoft Azure, berikut adalah cara untuk mengaksesnya\
+            \ 1. Login ke akun MyITS,\
+            \ 2. Pilih MS Azure,\
+            \ 3. Anda akan di arahkan ke halaman login Microsoft,\
+            \ 4. Setelah login anda akan diarahkan ke halaman login MS Azure.\
+            \ Terima kasih atas pengertiannya."
+  
+  utter_teams:
+    - text: "Jika anda mengalami permasalahan untuk mengakses Microsoft Teams, berikut adalah cara untuk mengaksesnya\
+            \ 1. Login ke akun MyITS,\
+            \ 2. Pilih MS Teams,\
+            \ 3. Anda akan di arahkan ke halaman login Microsoft,\
+            \ 4. Setelah login anda akan diarahkan ke halaman login MS Teams.\
+            \ Terima kasih atas pengertiannya."
+
+  utter_panduan:
+  - text: "Panduan dapat diakses melalui:\
+          \ https://www.its.ac.id/dptsi/id/panduan/"
 
 session_config:
   session_expiration_time: 60

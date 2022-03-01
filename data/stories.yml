@@ -2,29 +2,106 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: vpnstory
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
+  - intent: vpn
+  - action: utter_vpn
   - action: utter_did_that_help
   - intent: affirm
-  - action: utter_happy
+  - action: utter_goodbye
 
-- story: sad path 2
+- story: domhoststory
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
+  - intent: domhost
+  - action: utter_domhost
   - action: utter_did_that_help
-  - intent: deny
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: lisensistory
+  steps:
+  - intent: lisensi
+  - action: utter_lisensi
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: data_integrastory
+  steps:
+  - intent: data_integra
+  - action: utter_data_integra
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: daftar_forlapsivilstory
+  steps:
+  - intent: daftar_forlapsivil
+  - action: utter_daftar_forlapsivil
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: simstory
+  steps:
+  - intent: sim
+  - action: utter_sim
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: o365story
+  steps:
+  - intent: o365
+  - action: utter_o365
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: myitsintegrastory
+  steps:
+  - intent: myitsintegra
+  - action: utter_myitsintegra
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: zoomstory
+  steps:
+  - intent: zoom
+  - action: utter_zoom
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: azurestory
+  steps:
+  - intent: azure
+  - action: utter_azure
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: teamsstory
+  steps:
+  - intent: teams
+  - action: utter_teams
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: panduanstory
+  steps:
+  - intent: panduan
+  - action: utter_panduan
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: offtopicstory
+  steps:
+  - intent: panduan
+  - action: utter_panduan
+  - action: utter_did_that_help
+  - intent: affirm
   - action: utter_goodbye

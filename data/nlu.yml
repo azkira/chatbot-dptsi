@@ -19,7 +19,6 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
     - good by
     - cee you later
@@ -33,60 +32,159 @@ nlu:
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - sudah
+    - selesai
+    - done
+    - terselesaikan
 
-- intent: deny
+- intent: vpn
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - vpn
+    - akses vpn
+    - proxy its
+    - connect vpn
+    - setting vpn 
+    - bagaimana cara mendapatkan akun vpn its
+    - cara mendapatkan vpn
+    - cara mengajukan vpn
 
-- intent: mood_great
+- intent: domhost
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - domain
+    - hosting
+    - website
+    - cara mendapatkan hosting ITS
+    - apakah bisa mengajukan subdomain ITS
+    - bagaimana cara mengajukan hosting
+    - request website ITS
+    - layanan hosting its
+    - layanan hosting 
+    - hosting hima
+    - hosting bem
+    - hosting himpunan departemen
 
-- intent: mood_unhappy
+- intent: lisensi
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - lisensi
+    - license
+    - azure
+    - microsoft azure
+    - akses lisensi
+    - matlab
+    - 
 
-- intent: bot_challenge
+- intent: data_integra
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - update biodata
+    - sso
+    - ubah biodata
+    - typo nama biodata
+    - verifikasi email
+    - verifikasi 
+    - verifikasi nomor telpon
+
+- intent: daftar_forlapsivil
+  examples: |
+    - ijazah ristek dikti lampirkan berkas transkrip
+    - ijazah tidak terverifikasi
+    - daftar ijazah
+    - nomor ijazah
+
+- intent: sim
+  examples: |
+    - tidak bisa memverifikasi no telpon
+    - terlambat mengisi kuisioner
+    - nilai terblokir
+    - data tidak sesuai
+    - sim
+    - sim integra
+    - sistem informasi
+    - gagal login
+    - tidak bisa login myits classroom
+    - tidak bisa login presensi online
+
+- intent: o365
+  examples: |
+    - office
+    - o365
+    - 365
+    - word
+    - excel
+    - powerpoint
+    - microsoft excel
+    - microsoft word
+    - microsoft powerpoint
+
+- intent: myitsintegra
+  examples: |
+    - integra
+    - lupa password
+    - reset password integra
+    - lupa password integra
+    - integra
+    - myits
+    - password classroom lupa
+
+- intent: zoom
+  examples: |
+    - lisensi zoom
+    - zoom meeting
+    - akses zoom
+    - request zoom
+    - akun zoom
+    - zoom account
+    - zoom lisensi
+    - zoom license
+
+- intent: panduan
+  examples: |
+    - buku panduan
+    - dimana tutorial layanan IT
+    - dimana panduan layanan
+    - dimana guidebook
+    - minta guidebook
+    - minta buku panduan layanan ITS
+
+- intent: azure
+  examples: |
+    - login MS azure
+    - cara mendapatkan azure lisensi ITS
+    - menggunakan azure ITS
+    - ITS MS azure
+    - microsoft azure
+    - azure hosting its
+    - azure gratis its
+    - akun azure dari its
+    - cara daftar azure dari its
+    - login azure dengan email its
+
+- intent: teams
+  examples: |
+    - login MS teams
+    - cara mendapatkan teams lisensi ITS
+    - menggunakan teams ITS
+    - ITS MS teams
+    - microsoft teams
+    - teams hosting its
+    - teams gratis its
+    - akun teams dari its
+    - cara daftar teams dari its
+    - login teams dengan email its
+
+- intent: offtopic
+  examples: |
+    - siapa presiden bem its pertama
+    - siapa yang membuat bot ini
+    - berapa sks yang harus saya penuhi untuk lulus
+    - berapa harga botol minum
+    - speaker
+    - headset
+    - mouse 
+    - perabot rumah tangga
+    - selimut
+    - kasur
+    - info kosan
+    - asrama its
+    - masjid
+    - manarul ilmi
+    - toilet its
