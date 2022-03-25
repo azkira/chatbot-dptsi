@@ -102,6 +102,11 @@ responses:
   utter_did_that_help:
   - text: "Apakah anda sudah merasa terbantu?"
 
+  utter_feedback:
+  - text: "Apakah anda merasa puas? Kami meminta untuk mengisi form berikut sebagai lembar feedback \
+          \ https://forms.gle/uUbyrjj2YBTcZRtJ8 \
+          \ Terima Kasih. "
+
   utter_offtopic:
   - text: "Mohon maaf untuk saat ini layanan bot hanya dapat\
           \ menjawab masalah terkait firut dptsi"

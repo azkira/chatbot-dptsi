@@ -16,6 +16,19 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - selamat siang
+    - selamat pagi
+    - selamat sore-
+    - assalamualaikum
+    - halo
+    - perkenalkan
+    - mohon maaf mengganggu
+    - halo selamat siang
+    - assalamualaikum selamat siang
+    - halo assalamualaikum selamat sore 
+    - assalamualaikum, mohon maaf menggaggu waktunya
+    - halo selamat pagi
+    - selamat pagi, assalamualaikum
 
 - intent: goodbye
   examples: |
@@ -36,6 +49,14 @@ nlu:
     - selesai
     - done
     - terselesaikan
+    - terima kasih sudah membantu
+    - terima kasih atas bantuannya
+    - masalah saya sudah terselesaikan
+    - saya sudah terjawab
+    - terima kasih atas jawabannya
+    - udah
+    - dah
+    - sudah terjawab
 
 - intent: vpn
   examples: |
@@ -47,6 +68,13 @@ nlu:
     - bagaimana cara mendapatkan akun vpn its
     - cara mendapatkan vpn
     - cara mengajukan vpn
+    - selamat siang, saya ingin mengajukan vpn
+    - selamat pagi, bagaimana cara untuk mengajukan vpn
+    - permisi selamat malam saya ingin mengajukan akses vpn
+    - bagimana cara mengakses proxy its
+    - pengajuan vpn its untuk mengakses repository
+    - saya ingin mengajukan vpn its untuk mengakses repository
+    - tata cara pengajuan vpn its
 
 - intent: domhost
   examples: |
@@ -62,6 +90,10 @@ nlu:
     - hosting hima
     - hosting bem
     - hosting himpunan departemen
+    - saya ingin mengajukan hosting untuk departemen
+    - tata cara pengajuan hosting di its
+    - bagaimana caranya untuk mengajukan hosting
+    - saya ingin mengajukan domain untuk project
 
 - intent: lisensi
   examples: |
@@ -71,7 +103,10 @@ nlu:
     - microsoft azure
     - akses lisensi
     - matlab
-    - 
+    - saya ingin mengajukan lisensi dari its
+    - pengajuan lisensi its
+    - mengakses lisensi gratis its
+    - cara untuk mengaktifkan layanan lisensi its
 
 - intent: data_integra
   examples: |
@@ -82,6 +117,9 @@ nlu:
     - verifikasi email
     - verifikasi 
     - verifikasi nomor telpon
+    - verifikasi biodata mahasiswa
+    - mengganti data pribadi mahasiswa
+    - pengubahan data pribadi mahasiswa
 
 - intent: daftar_forlapsivil
   examples: |
@@ -89,6 +127,10 @@ nlu:
     - ijazah tidak terverifikasi
     - daftar ijazah
     - nomor ijazah
+    - saya ingin mengupload ijazah
+    - tidak dapat mengupload ijazah
+    - ijazah tidak terverifikasi setelah diupload
+    - bagaimana cara mendaftar forlapsivil
 
 - intent: sim
   examples: |
@@ -114,6 +156,9 @@ nlu:
     - microsoft excel
     - microsoft word
     - microsoft powerpoint
+    - cara mengakses microsoft powerpoin
+    - cara mengakses office 365 mahasiswa baru
+    - cara mengubah email its
 
 - intent: myitsintegra
   examples: |
@@ -124,6 +169,8 @@ nlu:
     - integra
     - myits
     - password classroom lupa
+    - ingin mengganti password classrom
+    - bagaimana cara mengganti password my its
 
 - intent: zoom
   examples: |
@@ -135,6 +182,9 @@ nlu:
     - zoom account
     - zoom lisensi
     - zoom license
+    - saya ingin mengajukan lisensi zoom
+    - permisi, saya ingin mengajukan akun zoom untuk kepentingan departemen
+    - saya ingin mengajukan zoom premium its
 
 - intent: panduan
   examples: |
@@ -144,6 +194,9 @@ nlu:
     - dimana guidebook
     - minta guidebook
     - minta buku panduan layanan ITS
+    - saya ingin mengajukan buku panduan layanan ITS
+    - cara mendapatkan layanan zoom dari ITS
+    - bagaimana cara saya dapat memiliki layanan zoom dari ITS
 
 - intent: azure
   examples: |
@@ -157,6 +210,10 @@ nlu:
     - akun azure dari its
     - cara daftar azure dari its
     - login azure dengan email its
+    - bagaimana cara mendapatkan layanan azure ITS
+    - saya ingin bertanya bagaimana untuk dapat mengajukan akun azure
+    - saya ingin mengajukan akun azure lisensi ITS
+    - apakah mahasiswa mendapatkan akun azure dari ITS
 
 - intent: teams
   examples: |
