@@ -253,24 +253,24 @@ nlu:
 
 - intent: internet
   examples: |
-    - switch mohon internet pustaka tidak bisa koneksi dicek sebab switch dptsi lantai pustaka tidak fungsi
-    - internet minta dibuatkan user password akses internet tamu demikan
-    - minta access point sehubungan pindah gedung dept teknik geofisika diberlakukannya sistem presensi perkuliahan online aju minta acces point butuh ruang kuliah
-    - setting ulang wifi asslamualaikum anwar dppsp subdirektorat simri spl pohon tim jaring dapat menyetting ulang wifi kantor pindah lokasi ruang
-    - pinjam jaring dukung teknis sehubungan dilaksanakannya skype meeting aplikasi skype aju pinjam jaring serta dukung teknis dptsi laksana giat dilaksanakan rabu tanggal mei danndash wib ruang djelantik arsitektur its harap kenan izin pinjam jaring serta dukung teknis dptsi informasi sila hubung sdr budi email international its nomor wa pabx dapat kerjasama
-    - jaring internet ruang sekretariat sbmptn down direktur dptsi akses internet akses point ruang sekretariat sbmptn gedung rc lantai ruang down hemat pribadi jalur internet ruang ambilkan switch ruang pakai scanner lju internet down rabu mei nya akses point tidak ip address set manual tidak ip addresnya kabelnya arah ruang sekretariat lepas mohon bantu tindak bisa akses internet
-    - wifi masjid manarul ilmi its layayan masalah akses wifi masjid manarul ilmi its
-    - internet international office rektorat down jaring internet international office rektorat down
-    - koneksi lan ikoma its internetnya ikoma tidak konek padam kemarin mohon bisa diperbaiki ya perlu operasional ikoma
-    - speed wifi lemah putus mohon maaf departemen statistika bisnis pindah gedung gedung tc ex sih its wifi gedung alam kendala putus kurangnya speed internet prosedur atas
-    - koneksi internet sac its bermasalah admin sac its lapor koneksi internet sac its bermasalah tidak dapat connect jaring coba restart angkat wifi switch lokal tidak dapat connect ya
-    - koneksi internet ikoma its mohon diperbaiki koneksi internet ikoma ya padam listrik kamis tidak connect mohon diperbaiki ya surono ikoma its
-    - one time password internet tim dptsi mohon akun integra buchs ie its fitur one time akses internet tamu bisa durasi
-    - internet sac its bermasalah mahasiswa magang sac its lapor jaring internet sac its bermasalah device terhubung lan wi ip its tidak dapat connect jaring halaman login akses tidak muncul ya mohon maaf ticket email salah ticket
-    - akses internet tamu mohon akses internet tamu tidak bisa create user password user passwordnya tidak mohon
-    - tarik kabel jaring mohon informasi prosedur minta jaring gedung dept desain interior januari departemen pindah gedung perhatianya
-    - admin test dept teknik transportasi laut minta cek koneksi internet dept teknik transportasi laut trouble
-    - wifi gedung rc lemot tim dptsi jaring wifi unit lppm gedung riset center lantai lobby 
+    - tidak dapat mengakses internet
+    - kendala dalam akses internet
+    - internet mati
+    - internet jurusan tidak dapat digunakan
+    - password yang salah untuk internet
+    - membuatkan user dan password untuk akses internet tamu
+    - request akses internet untuk tamu
+    - mengajukan akses internet untuk tamu
+    - cara mengakses internet untuk mahasiswa 
+    - internet bermasalah
+    - internet SAC bermasalah
+    - kecepatan wifi lemah 
+    - wifi putus nyambung
+    - wifi masjid manarul ilmi tidak dapat digunakan
+    - jaringan internet down di international office rektorat
+    - setting ulang wifi
+    - koneksi internet rektorat bermasalah
+    - koneksi lan ikoma ITS tidak dapat disambungkan
 
 - intent: offtopic
   examples: |
