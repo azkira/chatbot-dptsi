@@ -17,6 +17,7 @@ intents:
   - azure
   - teams
   - panduan
+  - internet
 
 responses:
   utter_greet:
@@ -126,6 +127,13 @@ responses:
             \ 3. Anda akan di arahkan ke halaman login Microsoft,\
             \ 4. Setelah login anda akan diarahkan ke halaman login MS Teams.\
             \ Terima kasih atas pengertiannya."
+
+  utter_internet:
+  - text: "Apabila anda mengalami permasalahan internet pada wifi pada wilayah kampus ITS, 
+           tolong isi form ini agar kami mengetahui lokasi dan melakukan proses pemeriksaan lebih lanjut.
+           \n\nNama Pelapor:\nNomor Telefon:\nNama Wifi:\nLokasi Wifi:\n\nKami dan tim akan segera melakukan proses pemeriksaan internet tersebut, 
+           jika diperlukan kami akan mengirimkan tim jaringan untuk memeriksa langsung kondisi lapangan. Selanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. 
+           Terimakasih atas pengertiannya 😄."
 
   utter_panduan:
   - text: "Panduan dapat diakses melalui:\

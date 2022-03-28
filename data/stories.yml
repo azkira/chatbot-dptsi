@@ -11,6 +11,15 @@ stories:
   - action: utter_feedback
   - action: utter_goodbye
 
+- story: internetstory
+  steps:
+  - intent: internet
+  - action: utter_internet
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_feedback
+  - action: utter_goodbye
+
 - story: domhoststory
   steps:
   - intent: domhost

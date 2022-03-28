@@ -131,6 +131,29 @@ nlu:
     - tidak dapat mengupload ijazah
     - ijazah tidak terverifikasi setelah diupload
     - bagaimana cara mendaftar forlapsivil
+    - no ijazah tidak daftar sivil barusan kecek berkali kali no ijazah sivil website https ijazah ristekdikti go website tulis data tidak ditemukan pastikan isi nama pt prodi coba kali data tidak ditemukan data masukkan kabar data no iazah belum diupdate its mohon selesai masalah perlu verifikasi dokumen cpns
+    - nomor ijazah tidak daftar forlap dikti gawai direktorat kembang teknologi sistem informasi its surabaya sdans teknik lingkung its lulus sehubungan seleksi terima cpns ikuti cek nomor ijazah sdans belum daftar forlap dikti mohon ijazah dapat daftar butuhkan tidak alam masalah proses seleksi administrasi cpns ikuti daftar tanggal oktober ijazah lampirkan harap tindak lanjut permohanan    
+    - daftar ijazah sivil dikti dpsti nrp ijazah belum daftar www ijazah ristekdikti go mohon daftar ijazah lampirkan danang cahyagi
+    - data no ijazah its tidak daftar dikti data nomor ijazah tidak cantum halaman forlap ristekdikti https forlap ristekdikti go tidak dapat ditemukan sistem verifikasi ijazah elektronik https ijazah kemdikbud go bisa minta data ijazah database dikti
+    - ijazah tidak terverifikasi sivil perkenalkan nadya anugerah rahman ananda nrp lapor ijazah tidak terverifikasi situs sivil mohon tangan masalah daftar kerja butuh verifikasi absah ijazah kemenristekdikti diakses sivil teimakasih
+    - nomor ijazah tidak daftar ristekdikti ijazah lampir belum daftar laman https ijazah ristekdikti go data mahasiswa belum muncul forlap ristekdikti forlap ristekdikti go nama data dukung lampir scan ijazah transkrip nilai mohon konfirmasinya daftar gawai negeri sipil perhati ucapkan
+    - ijazah tidak deteksi web dikti ijazah ristekdikti go dptsi alam kendala kecek ijazah ijazah ristekdikti go tulis no ijazah tidak valid muncul 
+    - data mahasiswa admin data mahasiswa mengjukan minta data mahasiswa bisa input forlap dikit lampirkan scan ijazah scan transkrip nilai perhati ucapkan
+    - input sivil halo servicedesk its alumni si fisika its data ijazah tidak terverivikasi sivil https ijazah ristekdikti go mohon ya penting sifat urgent senin oktober daftar online seleksi cpns kemenristekdikti data masuk diverivikasi harap service its
+    - perihal ijazah tidak bisa diverifikasi sivil sistem verifikasi ijazah elektronik https ijazah kemdikbud go dptsi perkenalkan nama verifikasi ijazah aplikasi sivil https ijazah kemdikbud go data tidak ditemukan mohon dptsi data dilaporkan dikti verifikasi dibutuhkan proses berkas cpns pemprov jatim verifikasi aplikasi sivil datanya dapat ditemukan no ijazah its ftif si lampirkan scan ijazah serta screenshot verifikasi ijazah aplikasi sivil hasil verifikasi ijazah aplikasi sivil
+    - no ijasah mahasiswa tidak daftar dptsi ditempat sehubungan surat pohon batu mahasiswa daftar no ijasah tidak daftar kemenristek dikti surat permohanan mohon kerjasama batuain nya
+    - nomor ijazah tidak daftar kemeristekdikti mucharromatul aula alumni its wisuda lamar cpns nomor ijazah belum daftar web kemenristekdikti kait bakpm disarankan lapor via servicedesk its lampir scan transkrip nilai ijazah pohon bpak daftar nomor ijazah terang nomor ijazah its fbmt si
+    - ijazah tidak terverifikasi sivil ijazah tidak terverifikasi ijazah ristekdikti go dasar no ijazah
+    - upload ijazah kemenristekdikti pimpin its kampus its sukolilo surabaya laksana proses berkas rangka syarat lulus cpns mohon mengupload ijazah transkrip kemenristekdikti batas sempit mohon minta dapat proses mohon maaf salam almuni dept statistika its deni dwi wijayanto
+    - upload ijazah kemenristekdikti pimpin its kampus its sukolilo surabaya laksana proses berkas rangka syarat lulus cpns mohon mengupload ijazah transkrip kemenristekdikti batas sempit mohon minta dapat proses mohon maaf salam almuni dept statistika its samsul arifin
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek legalitas ijazah ijazah ristekdikti go dimana nomor ijazah tidak valid data profil
+    - no ijazah tidak daftar website dikti no ijazah tidak daftar website ijazah ristekdikti go registrasi cpns keterangann forlap statusnya mahasiswa aktif
+    - nomor ijazah tidak ditemukan sivil kemenristekdikti alumni matematika its masuk nomor ijazah laman sivil kemenristekdikti ijazah kemdikbud go muncul pesan nomor ijazah tidak ditemukan nomor ijazah its xciii mp si ekstensi nim mohon tunjuk solusi masalah
+    - layan data forlap dikti nomor ijazah belum daftar sivil ristekdikti nama its fmipa si nrm si fisika lulus tanggal agustus mohon tindaklanjutnya
+    - ijazah tidak terverifikasi sivil nomor ijazah tidak terverifikasi web sivil muncul tulis data ridak ditemukan pastikan isi nama pt program studi teman teman statistika its lulus alam mohon kait daftar cpns butuh verifikasi absah ijazah kemenristekdikti
+    - nama tidak daftar forlap dikti mohon dibuatkan surat terang dimasukkan daftar forlap dikti nama riza puspitaningrum alumni teknik instrumentasi no ijazah its lxv ti no transkrip pp no ktp lampir copy ktp ijazah transkrip
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek ijazah ijazah ristekdikti go tulis no ijazah tidak valid muncul departemen teknik mesin wisuda no ijazah its fti             
+    - ijazah belum daftar sivil dikti data ijazah belum daftar sivil dikti mohon tindak perhati wassalamualaikum
 
 - intent: sim
   examples: |
@@ -228,6 +251,27 @@ nlu:
     - cara daftar teams dari its
     - login teams dengan email its
 
+- intent: internet
+  examples: |
+    - switch mohon internet pustaka tidak bisa koneksi dicek sebab switch dptsi lantai pustaka tidak fungsi
+    - internet minta dibuatkan user password akses internet tamu demikan
+    - minta access point sehubungan pindah gedung dept teknik geofisika diberlakukannya sistem presensi perkuliahan online aju minta acces point butuh ruang kuliah
+    - setting ulang wifi asslamualaikum anwar dppsp subdirektorat simri spl pohon tim jaring dapat menyetting ulang wifi kantor pindah lokasi ruang
+    - pinjam jaring dukung teknis sehubungan dilaksanakannya skype meeting aplikasi skype aju pinjam jaring serta dukung teknis dptsi laksana giat dilaksanakan rabu tanggal mei danndash wib ruang djelantik arsitektur its harap kenan izin pinjam jaring serta dukung teknis dptsi informasi sila hubung sdr budi email international its nomor wa pabx dapat kerjasama
+    - jaring internet ruang sekretariat sbmptn down direktur dptsi akses internet akses point ruang sekretariat sbmptn gedung rc lantai ruang down hemat pribadi jalur internet ruang ambilkan switch ruang pakai scanner lju internet down rabu mei nya akses point tidak ip address set manual tidak ip addresnya kabelnya arah ruang sekretariat lepas mohon bantu tindak bisa akses internet
+    - wifi masjid manarul ilmi its layayan masalah akses wifi masjid manarul ilmi its
+    - internet international office rektorat down jaring internet international office rektorat down
+    - koneksi lan ikoma its internetnya ikoma tidak konek padam kemarin mohon bisa diperbaiki ya perlu operasional ikoma
+    - speed wifi lemah putus mohon maaf departemen statistika bisnis pindah gedung gedung tc ex sih its wifi gedung alam kendala putus kurangnya speed internet prosedur atas
+    - koneksi internet sac its bermasalah admin sac its lapor koneksi internet sac its bermasalah tidak dapat connect jaring coba restart angkat wifi switch lokal tidak dapat connect ya
+    - koneksi internet ikoma its mohon diperbaiki koneksi internet ikoma ya padam listrik kamis tidak connect mohon diperbaiki ya surono ikoma its
+    - one time password internet tim dptsi mohon akun integra buchs ie its fitur one time akses internet tamu bisa durasi
+    - internet sac its bermasalah mahasiswa magang sac its lapor jaring internet sac its bermasalah device terhubung lan wi ip its tidak dapat connect jaring halaman login akses tidak muncul ya mohon maaf ticket email salah ticket
+    - akses internet tamu mohon akses internet tamu tidak bisa create user password user passwordnya tidak mohon
+    - tarik kabel jaring mohon informasi prosedur minta jaring gedung dept desain interior januari departemen pindah gedung perhatianya
+    - admin test dept teknik transportasi laut minta cek koneksi internet dept teknik transportasi laut trouble
+    - wifi gedung rc lemot tim dptsi jaring wifi unit lppm gedung riset center lantai lobby 
+
 - intent: offtopic
   examples: |
     - siapa presiden bem its pertama
@@ -245,3 +289,4 @@ nlu:
     - masjid
     - manarul ilmi
     - toilet its
+
