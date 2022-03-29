@@ -5,9 +5,9 @@ rules:
 - rule: Pembukaan setiap user mengatakan 'hai' dsb
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: utter_welcome_message
 
 - rule: Mengucapkan terima kasih ketika sudah selesai
   steps:
   - intent: goodbye
-  - action: utter_goodbye
+  - action: utter_goodbye_message

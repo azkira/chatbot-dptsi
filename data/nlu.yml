@@ -1,62 +1,82 @@
 version: "2.0"
 
 nlu:
+- synonym: goodbye
+  examples: |
+    - bye
+    - bye-bye
+    - bye bye
+    - see ya
+    - see you
+    - see you later
+    - see you next time
+    - selamat tinggal
+    - sampai jumpa
+    - sampai nanti
+
+- synonym: thank you
+  examples: |
+    - terima kasih
+    - thanks
+    - makasih
+    - suwun
+    - suwon
+    - terimakasih
+    - thx
+
+- synonym: hello
+  examples: |
+    - hi
+    - helo
+    - halo
+    - hola
+    - hai
+    - hoi
+    - hey
+
+- synonym: tidak
+  examples: |
+    - no
+    - tak
+    - nggak
+    - kagak
+    - tiada
+
+- lookup: faculties
+  examples: |
+    - FTEIC
+    - FTIRS
+    - FTK
+    - FTSPK
+    - FSAD
+    - FDKBD
+
+- lookup: batas_waktu
+  examples: |
+    - pagi
+    - siang
+    - sore
+    - malam
+
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-    - selamat siang
-    - selamat pagi
-    - selamat sore-
-    - assalamualaikum
-    - halo
-    - perkenalkan
-    - mohon maaf mengganggu
-    - halo selamat siang
-    - assalamualaikum selamat siang
-    - halo assalamualaikum selamat sore 
-    - assalamualaikum, mohon maaf menggaggu waktunya
-    - halo selamat pagi
-    - selamat pagi, assalamualaikum
+    - [hello] (menyapa) there
+    - [hei] (menyapa:hello)
+    - selamat [pagi] (batas_waktu)
+    - selamat [siang] (batas_waktu)
+    - selamat [sore] (batas_waktu)
+    - selamat [malam] (batas_waktu)
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - goodbye (pamit)
+    - [gud bai] (pamit:goodbye)
 
-- intent: affirm
+- intent: deny
   examples: |
-    - sudah
-    - selesai
-    - done
-    - terselesaikan
-    - terima kasih sudah membantu
-    - terima kasih atas bantuannya
-    - masalah saya sudah terselesaikan
-    - saya sudah terjawab
-    - terima kasih atas jawabannya
-    - udah
-    - dah
-    - sudah terjawab
+    - [tidak] (membantah), [terima kasih] (gratitude)
+    - cukup
+    - cukup, [makasih] (gratitude:terima kasih)
 
 - intent: vpn
   examples: |
@@ -157,7 +177,7 @@ nlu:
 
 - intent: sim
   examples: |
-    - tidak bisa memverifikasi no telpon
+    - memverifikasi no telpon
     - terlambat mengisi kuisioner
     - nilai terblokir
     - data tidak sesuai
@@ -165,8 +185,9 @@ nlu:
     - sim integra
     - sistem informasi
     - gagal login
-    - tidak bisa login myits classroom
-    - tidak bisa login presensi online
+    - login myits classroom
+    - login presensi online
+    
 
 - intent: o365
   examples: |

@@ -6,124 +6,124 @@ stories:
   steps:
   - intent: vpn
   - action: utter_vpn
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: internetstory
   steps:
   - intent: internet
   - action: utter_internet
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: domhoststory
   steps:
   - intent: domhost
   - action: utter_domhost
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: lisensistory
   steps:
   - intent: lisensi
   - action: utter_lisensi
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: data_integrastory
   steps:
   - intent: data_integra
   - action: utter_data_integra
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: daftar_forlapsivilstory
   steps:
   - intent: daftar_forlapsivil
   - action: utter_daftar_forlapsivil
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: simstory
   steps:
   - intent: sim
   - action: utter_sim
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: o365story
   steps:
   - intent: o365
   - action: utter_o365
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: myitsintegrastory
   steps:
   - intent: myitsintegra
   - action: utter_myitsintegra
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: zoomstory
   steps:
   - intent: zoom
   - action: utter_zoom
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: azurestory
   steps:
   - intent: azure
   - action: utter_azure
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: teamsstory
   steps:
   - intent: teams
   - action: utter_teams
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: panduanstory
   steps:
   - intent: panduan
   - action: utter_panduan
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message
 
 - story: offtopicstory
   steps:
   - intent: panduan
   - action: utter_panduan
-  - action: utter_did_that_help
-  - intent: affirm
+  - action: utter_anything_else
+  - intent: deny
   - action: utter_feedback
-  - action: utter_goodbye
+  - action: utter_goodbye_message

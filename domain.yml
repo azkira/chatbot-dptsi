@@ -3,7 +3,7 @@ version: "2.0"
 intents:
   - greet
   - goodbye
-  - affirm
+  - deny
   - offtopic
   - domhost
   - lisensi
@@ -20,12 +20,10 @@ intents:
   - internet
 
 responses:
-  utter_greet:
-  - text: "Selamat datang di chatbot dptsi.\ 
-          \ tulis keperluanmu untuk menyelesaikan\
-          \ kendala yang anda alami."
+  utter_welcome_message:
+  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
 
-  utter_goodbye:
+  utter_goodbye_message:
   - text: "Terima kasih telah menggunakan chatbot dptsi."
 
   utter_vpn:
@@ -100,8 +98,8 @@ responses:
           \ Untuk melakukan request meeting zoom, silahkan membuat surat permohonan yang ditujukan\
           \ ke DPTSI."
   
-  utter_did_that_help:
-  - text: "Apakah anda sudah merasa terbantu?"
+  utter_anything_else:
+  - text: "Ada lagi yang bisa saya bantu?"
 
   utter_feedback:
   - text: "Apakah anda merasa puas? Kami meminta untuk mengisi form berikut sebagai lembar feedback \
