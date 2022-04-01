@@ -33,21 +33,21 @@ responses:
           \ anda inginkan.\nJika anda masih mengalami permasalahan untuk mengakses VPN\
           \ ITS, silahkan sampaikan keluhan anda di servicedesk.its.ac.id.\nSelanjutnya\
           \ mohon ditunggu, akan kami lakukan proses check keluhan yang anda alami terlebih\
-          \ dahulu bersama tim. Terima kasih atas pengertiannya \U0001F604."
+          \ dahulu bersama tim. Terima kasih atas pengertiannya 😄."
 
   utter_domhost:
   - text: "Apabila anda mengalami permasalahan mengenai domain, hosting, dan server\
           \ atau memiliki permintaan tertentu mengenai domain, hosting, dan server. Anda\
           \ dapat langsung mengisi aplikasi simdom yang dapat diakses di my.its.ac.id.\n\
           Selanjutnya mohon ditunggu, akan kami lakukan proses check ataupun penyetujuan\
-          \ terlebih dahulu bersama tim. Terima kasih atas pengertiannya \U0001F604."
+          \ terlebih dahulu bersama tim. Terima kasih atas pengertiannya 😄."
 
   utter_lisensi:
   - text: "Jika terdapat keluhan mengenai cara instalasi, aktifasi, atau akses ke\
           \ aplikasi yang membutuhkan lisensi mohon dapat menyampaikan via servicedesk.its.ac.id\
           \ aplikasi yang menjadi kendala atau ingin diakses lisensinya.\nSelanjutnya\
           \ mohon ditunggu, akan kami lakukan proses check ketersediaaanya terlebih dahulu\
-          \ bersama tim. Terima kasih atas pengertiannya \U0001F604."
+          \ bersama tim. Terima kasih atas pengertiannya 😄."
 
   utter_data_integra:
   - text: "Apabila anda ingin melakukan perubahan pada data Integra anda, tolong lengkapi\
@@ -56,7 +56,7 @@ responses:
           \ untuk memverifikasi data anda. Selanjutnya tolong diisikan juga form mengenai\
           \ data yang ingin dirubah.\nData semula :\nDiubah Menjadi:\nSelanjutnya mohon\
           \ ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terima\
-          \ kasih atas pengertiannya \U0001F604."
+          \ kasih atas pengertiannya 😄."
 
   utter_daftar_forlapsivil:
   - text: "Jika anda ingin melakukan pendaftaran pada Forlap atau Ijazah anda belum\
@@ -64,14 +64,14 @@ responses:
           \ data-data berikut.\nNama :\nDepartemen:\nNRP:\nTahun Lulus:\nTolong sertakan\
           \ juga scan atau foto ijazah anda. Selanjutnya mohon ditunggu, akan kami lakukan\
           \ proses check terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
-          \ \U0001F604."
+          \ 😄."
 
   utter_sim:
   - text: "Jika anda mengalami permasalahan mengenai SIM anda dapat sampaikan keluhan\
           \ yang anda alami beserta dengan screenshoot dari SIM yang bermasalah kepada\
           \ servicedesk.its.ac.id.\nSelanjutnya mohon ditunggu, akan kami lakukan proses\
           \ check mengenai sistem terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
-          \ \U0001F604."
+          \ 😄."
 
   utter_o365:
   - text: "Jika anda mengalami masalah untuk masuk ke email anda atau akun office\
@@ -83,7 +83,7 @@ responses:
           \ servicedesk.its.ac.id dengan list data sebagai berikut :\nNama :\nDepartemen\
           \ :\nNRP :\nUsername Integra :\nSelanjutnya mohon ditunggu, akan kami lakukan\
           \ proses check terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
-          \ \U0001F604."
+          \ 😄."
 
   utter_myitsintegra:
   - text: "Jika anda tidak bisa masuk kedalam akun MyITS atau akun Integra anda, tolong\
@@ -91,7 +91,7 @@ responses:
           Email Alternatif :\nNomor Telefon:\nTolong sertakan juga foto KTM/KTP/SIM anda\
           \ untuk memverifikasi data anda. Selanjutnya mohon ditunggu, akan kami lakukan\
           \ proses check terlebih dahulu bersama tim. Terima kasih atas pengertiannya\
-          \ \U0001F604."
+          \ 😄."
   
   utter_zoom:
   - text: "Untuk mengajukan akun zoom berlisensi ITS, silahkan mengajukan melalui servicedesk.\
@@ -105,6 +105,7 @@ responses:
   - text: "Apakah anda merasa puas? Kami meminta untuk mengisi form berikut sebagai lembar feedback \
           \ https://forms.gle/uUbyrjj2YBTcZRtJ8 \
           \ Terima Kasih. "
+          
 
   utter_offtopic:
   - text: "Mohon maaf untuk saat ini layanan bot hanya dapat\
