@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-azure",
+      "2": "I-azure",
+      "3": "L-azure",
+      "4": "U-azure",
+      "5": "B-office",
+      "6": "I-office",
+      "7": "L-office",
+      "8": "U-office",
+      "9": "B-teams",
+      "10": "I-teams",
+      "11": "L-teams",
+      "12": "U-teams",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-azure": 1,
+      "I-azure": 2,
+      "L-azure": 3,
+      "U-azure": 4,
+      "B-office": 5,
+      "I-office": 6,
+      "L-office": 7,
+      "U-office": 8,
+      "B-teams": 9,
+      "I-teams": 10,
+      "L-teams": 11,
+      "U-teams": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

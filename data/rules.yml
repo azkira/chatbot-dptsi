@@ -2,12 +2,12 @@ version: "2.0"
 
 rules:
 
-- rule: Pembukaan setiap user mengatakan 'hai' dsb
+- rule: Greeting Rule
   steps:
   - intent: greet
   - action: utter_welcome_message
 
-- rule: Mengucapkan terima kasih ketika sudah selesai
+- rule: Parting Rule
   steps:
   - intent: goodbye
   - action: utter_goodbye_message

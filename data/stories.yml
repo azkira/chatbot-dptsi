@@ -8,8 +8,7 @@ stories:
   - action: utter_vpn
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: internetstory
   steps:
@@ -17,8 +16,7 @@ stories:
   - action: utter_internet
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: domhoststory
   steps:
@@ -26,17 +24,7 @@ stories:
   - action: utter_domhost
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
-
-- story: lisensistory
-  steps:
-  - intent: lisensi
-  - action: utter_lisensi
-  - action: utter_anything_else
-  - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: data_integrastory
   steps:
@@ -44,8 +32,7 @@ stories:
   - action: utter_data_integra
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: daftar_forlapsivilstory
   steps:
@@ -53,8 +40,7 @@ stories:
   - action: utter_daftar_forlapsivil
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: simstory
   steps:
@@ -62,17 +48,7 @@ stories:
   - action: utter_sim
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
-
-- story: o365story
-  steps:
-  - intent: o365
-  - action: utter_o365
-  - action: utter_anything_else
-  - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: myitsintegrastory
   steps:
@@ -80,8 +56,7 @@ stories:
   - action: utter_myitsintegra
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: zoomstory
   steps:
@@ -89,26 +64,7 @@ stories:
   - action: utter_zoom
   - action: utter_anything_else
   - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
-
-- story: azurestory
-  steps:
-  - intent: azure
-  - action: utter_azure
-  - action: utter_anything_else
-  - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
-
-- story: teamsstory
-  steps:
-  - intent: teams
-  - action: utter_teams
-  - action: utter_anything_else
-  - intent: deny
-  - action: utter_feedback
-  - action: utter_goodbye_message
+  - checkpoint: ask_feedback
 
 - story: panduanstory
   steps:
@@ -116,14 +72,105 @@ stories:
   - action: utter_panduan
   - action: utter_anything_else
   - intent: deny
+  - checkpoint: ask_feedback
+
+- story: zoomtory
+  steps:
+  - intent: sim
+  - action: utter_zoom
+  - action: utter_anything_else
+  - intent: deny
+  - checkpoint: ask_feedback
+
+- story: case_one
+  steps:
+  - intent: greet
+  - action: utter_welcome_message
+  - intent: vpn
+  - action: utter_vpn
+  - action: utter_anything_else
+  - intent: domhost
+  - action: utter_domhost
+  - action: utter_anything_else
+  - intent: deny
+  - checkpoint: ask_feedback
+
+- story: case_two
+  steps:
+  - intent: greet
+  - action: utter_welcome_message
+  - intent: zoom
+  - action: utter_zoom
+  - action: utter_anything_else
+  - intent: deny
+  - checkpoint: ask_feedback
+
+- story: case_three
+  steps:
+  - intent: data_integra
+  - action: utter_data_integra
+  - action: utter_anything_else
+  - intent: domhost
+  - action: utter_domhost
+  - action: utter_anything_else
+  - intent: vpn
+  - action: utter_anything_else
+  - intent: greet
+  - action: utter_welcome_message
+  - intent: zoom
+  - action: utter_zoom
+  - action: utter_anything_else
+  - intent: deny
+  - checkpoint: ask_feedback
+
+- story: lisensi_softwarestory
+  steps:
+  - intent: lisensi_software
+  - action: utter_lisensi
+  - action: utter_anything_else
+  - intent: lisensi_software
+    entities:
+    - office: "office 365"
+  - action: utter_o365
+  - action: utter_anything_else
+  - intent: lisensi_software
+    entities:
+    - teams: "teams"
+  - action: utter_teams
+  - action: utter_anything_else
+  - intent: lisensi_software
+    entities:
+    - azure: "azure"
+  - action: utter_azure
+  - checkpoint: ask_feedback
+
+- story: case_four
+  steps:
+  - intent: lisensi_software
+    entities:
+    - office: "teams"
+  - action: utter_teams
+  - action: utter_anything_else
+
+- story: case_five
+  steps:
+  - intent: lisensi_software
+    entities:
+    - office: "azure"
+  - action: utter_azure
+  - action: utter_anything_else
+
+- story: user provides feedback
+  steps:
+  - checkpoint: ask_feedback
+  - action: utter_ask_feedback
+  - intent: accept
   - action: utter_feedback
   - action: utter_goodbye_message
 
-- story: offtopicstory
+- story: user doesn't have feedback
   steps:
-  - intent: panduan
-  - action: utter_panduan
-  - action: utter_anything_else
+  - checkpoint: ask_feedback
+  - action: utter_ask_feedback
   - intent: deny
-  - action: utter_feedback
   - action: utter_goodbye_message

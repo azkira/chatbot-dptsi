@@ -1,0 +1,6 @@
+[
+  {
+    "name": "faculties",
+    "pattern": "(\\bFTEIC\\b|\\bFTIRS\\b|\\bFTK\\b|\\bFTSPK\\b|\\bFSAD\\b|\\bFDKBD\\b)"
+  }
+]
