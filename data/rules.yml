@@ -9,5 +9,5 @@ rules:
 
 - rule: Parting Rule
   steps:
-  - intent: goodbye
+  - intent: farewell
   - action: utter_goodbye_message
