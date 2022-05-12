@@ -19,6 +19,7 @@ intents:
   - panduan
   - internet
   - zoom
+  - accept
 
 entities:
   - teams
