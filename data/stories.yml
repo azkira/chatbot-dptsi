@@ -151,6 +151,7 @@ stories:
     - office: "teams"
   - action: utter_teams
   - action: utter_anything_else
+  - checkpoint: ask_feedback
 
 - story: case_five
   steps:
@@ -159,6 +160,23 @@ stories:
     - office: "azure"
   - action: utter_azure
   - action: utter_anything_else
+  - checkpoint: ask_feedback
+
+- story: case_six
+  steps:
+  - intent: lisensi_software
+    entities:
+    - office: "o365"
+  - action: utter_o365
+  - action: utter_anything_else
+  - checkpoint: ask_feedback
+
+- story: microsoft
+  steps:
+  - user: saya memiliki kendala pada akun microsoft
+  - action: utter_o365
+  - action: utter_anything_else
+  - checkpoint: ask_feedback
 
 - story: user provides feedback
   steps:
@@ -168,9 +186,24 @@ stories:
   - action: utter_feedback
   - action: utter_goodbye_message
 
+- story: user provides feedback dua
+  steps:
+  - checkpoint: ask_feedback
+  - action: utter_ask_feedback
+  - user: bersedia
+  - action: utter_feedback
+  - action: utter_goodbye_message
+
 - story: user doesn't have feedback
   steps:
   - checkpoint: ask_feedback
   - action: utter_ask_feedback
   - intent: deny
+  - action: utter_goodbye_message
+
+- story: user doesn't have feedback dua
+  steps:
+  - checkpoint: ask_feedback
+  - action: utter_ask_feedback
+  - user: tidak bersedia
   - action: utter_goodbye_message
